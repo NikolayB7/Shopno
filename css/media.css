@@ -1,0 +1,200 @@
+@media (min-width: 768px) and (max-width: 992px) {
+  .menu .menu-content {
+    width: 30vw;
+  }
+  .container .about .wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .container .works .wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .container .service .grid_wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .container .service .grid_wrapper .wrapper-block_1 {
+    grid-column-end: 2;
+  }
+  .container .service .grid_wrapper .wrapper-block_2 {
+    grid-column-start: 2;
+  }
+  .container .service .grid_wrapper .wrapper-block_3 {
+    grid-column-end: 2;
+  }
+  .container .service .grid_wrapper .wrapper-block_4 {
+    grid-column-start: 2;
+  }
+  .container .team .team_wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .container .speak .speak-slider .slick-dots {
+    width: 100%;
+  }
+  .container .speak .speak-slider .sl-speak {
+    flex-direction: column;
+  }
+  .container .speak .speak-slider .sl-speak .speaker-photo {
+    margin: 30px 0;
+  }
+  .container .contact .contact-wrap {
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 15px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767.99px) {
+  .container header {
+    padding: 5%;
+  }
+  .container .modal{
+      width: 80vw;
+  }
+  .container .modal .modal-content .close{
+      right: 10%;
+  }
+  .menu {
+    transform: translateX(214%);
+  }
+  .menu .menu-content {
+    width: 100vw;
+  }
+  .container .about {
+    padding: 50px 0;
+  }
+  .container .about .wrapper {
+    margin-top: 50px;
+  }
+  .container .about .wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .container .about .wrapper .about-slider::before {
+    display: none;
+  }
+  .container .about .wrapper .about-slider::after {
+    display: none;
+  }
+
+  .container .about .wrapper .about-description {
+    max-width: 100%;
+    padding: 20px;
+  }
+  .container .about .wrapper .about-slider .sl-slide img{
+      margin: 0 auto;
+  }
+  .container .works .title {
+    margin-top: 30px;
+  }
+  .container .works {
+    padding-bottom: 25px;
+  }
+  .container .works .wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .container .service {
+    padding: 30px 0;
+  }
+  .container .service .grid_wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .container .service .grid_wrapper .wrapper-block_1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  .container .service .grid_wrapper .wrapper-block_2 {
+    grid-column-start: 1;
+  }
+  .container .service .grid_wrapper .wrapper-block_3 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  .container .service .grid_wrapper .wrapper-block_4 {
+    grid-column-start: 1;
+  }
+  .container .service .grid_wrapper .wrapper-block_5{
+    grid-column-end: 4;
+  }
+  .container .service .grid_wrapper .wrapper-block_6 {
+    grid-column-start: 1;
+  }
+  .container .service .grid_wrapper .wrapper-block .service-back {
+    font-size: 12px;
+  }
+
+  .container .team{
+      padding: 40px;
+  }
+  .container .team .team_wrapper{
+      padding-top: 20px;
+  }
+  .container .team .team_wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .container .speak .speak-slider .slick-dots {
+    width: 100%;
+  }
+  .container .speak .speak-slider .sl-speak {
+    flex-direction: column;
+  }
+  .container .speak .speak-slider .sl-speak .speaker-photo {
+    height: 300px;
+    width: 100%;
+    margin: 10px 0;
+  }
+  .container .speak .speak-slider .sl-speak .speaker-photo img{
+      height: 300px;
+      width: 100%;
+      object-fit: contain;
+  }
+  .container .speak .speak-slider .sl-speak .speaker-photo::before{
+      display: none;
+  }
+  .container .speak .speak-slider .sl-speak .speaker-photo::after{
+      display: none;
+  }
+  .container .contact .contact-wrap {
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 15px;
+  }
+  .container .about .wrapper .about-slider{
+      max-width: 100%;
+  }
+  .container .contact{
+      padding: 5%;
+  }
+  .container .speak .speak-slider{
+      margin-top: 40px;
+  }
+  .container .speak{
+      padding: 40px;
+  }
+  .container .speak .speak-slider .sl-speak .speaker-said{
+      margin: 50px 0;
+      padding: 20px;
+      width: 100%;
+  }
+  
+  .container .speak .speak-slider .sl-speak .speaker-said .team-said{
+      font-size: 13px;
+  }
+  .container .logo{
+      display: none;
+  }
+  .footer-bottom{
+      text-align: center;
+  }
+}
+@media (max-width:480px){
+    .container .about .wrapper .about-slider{
+        display: none;
+    }
+}
+@media (max-width:992px){
+    .container .about .wrapper .about-slider{
+        max-width: 38%;
+    }
+}
+
+@media (max-width:1200px){
+    .container .speak .speak-slider .slick-prev{
+        left: 75%;
+    }
+}
