@@ -898,7 +898,7 @@ body {
 
 .container .contact {
   padding: 10% 10%;
-  background-image: url(/img/christmas_snow_trees-wide.png);
+  background-image: url(../img/christmas_snow_trees-wide.png);
   background-size: cover;
   background-position: top;
 }
